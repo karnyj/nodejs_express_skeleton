@@ -8,10 +8,11 @@
       "request": "2.9.203",
       "sprintf": "*",
       "express-partials": "*",
-      "express-singly": "*"
+      "mongoose": "latest",
+      "connect-mongo": "latest"
    },
    "engines": {
-     "node": "0.8.x",
-     "npm":  "1.1.x"
+     "node": "0.10.x",
+     "npm":  "1.2.x"
    }
 }

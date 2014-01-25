@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-    - 0.8
-notifications:
-    email: false
-    hipchat: 33d0319e384ba2d38a29b40c07bfdd@Alerts
+  - "0.10"
+env:
+  - NODE_ENV=travis
+services:
+  - mongodb
