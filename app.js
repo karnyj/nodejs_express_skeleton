@@ -45,6 +45,10 @@ app.configure('development', function() {
   }));
 });
 
+app.get('/info', function(req,res) {
+  res.json({ some: 'json' })
+});
+
 app.get('/', function(req, res) {
   // Render out views/index.ejs, passing in the session
   res.render('index', {
